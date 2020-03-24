@@ -2,7 +2,6 @@ package stepdefinition;
 
 import java.util.HashMap;
 import java.util.Map;
-
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import generic.APIConstant;

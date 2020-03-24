@@ -1,20 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
+    <line>
+      <![CDATA[About to begin executing Suite Regression]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing Test API Test]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in utilities.Runner]]>
+    </line>
+    <line>
+      <![CDATA[Test Method had the following parameters : nullJust Demo,]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : Runner.writeExtentReport]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : Runner.writeExtentReport]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
   </reporter-output>
-  <suite name="Regression" duration-ms="3212" started-at="2020-03-23T10:17:20Z" finished-at="2020-03-23T10:17:23Z">
+  <suite name="Regression" duration-ms="3762" started-at="2020-03-24T11:40:51 IST" finished-at="2020-03-24T11:40:55 IST">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:utilities.Runner@5c3bd550]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:utilities.Runner@15d0c81b]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="API Test" duration-ms="3212" started-at="2020-03-23T10:17:20Z" finished-at="2020-03-23T10:17:23Z">
+    <test name="API Test" duration-ms="3762" started-at="2020-03-24T11:40:51 IST" finished-at="2020-03-24T11:40:55 IST">
       <class name="utilities.Runner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:utilities.Runner@5c3bd550]" name="setUpClass" is-config="true" duration-ms="250" started-at="2020-03-23T15:47:20Z" finished-at="2020-03-23T15:47:20Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:utilities.Runner@15d0c81b]" name="setUpClass" is-config="true" duration-ms="240" started-at="2020-03-24T11:40:51 IST" finished-at="2020-03-24T11:40:51 IST">
           <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+            </line>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:utilities.Runner@5c3bd550]" name="feature" duration-ms="2869" started-at="2020-03-23T15:47:20Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-03-23T15:47:23Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:utilities.Runner@15d0c81b]" name="feature" duration-ms="3000" started-at="2020-03-24T11:40:51 IST" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-03-24T11:40:54 IST">
           <params>
             <param index="0">
               <value>
@@ -23,10 +65,35 @@
             </param>
           </params>
           <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.feature]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in utilities.Runner]]>
+            </line>
+            <line>
+              <![CDATA[Test Method had the following parameters : nullJust Demo,]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:utilities.Runner@5c3bd550]" name="tearDownClass" is-config="true" duration-ms="5" started-at="2020-03-23T15:47:23Z" finished-at="2020-03-23T15:47:23Z">
+        <test-method status="PASS" signature="writeExtentReport()[pri:0, instance:utilities.Runner@15d0c81b]" name="writeExtentReport" is-config="true" duration-ms="26" started-at="2020-03-24T11:40:54 IST" finished-at="2020-03-24T11:40:55 IST">
           <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : Runner.writeExtentReport]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- writeExtentReport -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:utilities.Runner@15d0c81b]" name="tearDownClass" is-config="true" duration-ms="375" started-at="2020-03-24T11:40:55 IST" finished-at="2020-03-24T11:40:55 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+            </line>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- utilities.Runner -->
